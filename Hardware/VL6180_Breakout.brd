@@ -122,13 +122,13 @@
 <text x="26.5" y="-9.5" size="1.778" layer="51">Casey Kuhns</text>
 <text x="17.018" y="13.462" size="1.016" layer="16" font="vector" ratio="20" rot="MR270" align="bottom-center">v01</text>
 <text x="14.986" y="2.794" size="0.8128" layer="21" font="vector" ratio="15" align="bottom-center">GND</text>
-<text x="12.446" y="2.794" size="0.8128" layer="21" font="vector" ratio="15" align="bottom-center">VCC</text>
+<text x="12.446" y="2.794" size="0.8128" layer="21" font="vector" ratio="15" align="bottom-center">2.8v</text>
 <text x="9.906" y="2.794" size="0.8128" layer="21" font="vector" ratio="15" align="bottom-center">SDA</text>
 <text x="7.366" y="2.794" size="0.8128" layer="21" font="vector" ratio="15" align="bottom-center">SCL</text>
 <text x="4.826" y="2.794" size="0.8128" layer="21" font="vector" ratio="15" align="bottom-center">IO0</text>
 <text x="2.286" y="2.794" size="0.8128" layer="21" font="vector" ratio="15" align="bottom-center">IO1</text>
 <text x="14.986" y="2.794" size="0.8128" layer="22" font="vector" ratio="15" rot="MR0" align="bottom-center">GND</text>
-<text x="12.446" y="2.794" size="0.8128" layer="22" font="vector" ratio="15" rot="MR0" align="bottom-center">VCC</text>
+<text x="12.446" y="2.794" size="0.8128" layer="22" font="vector" ratio="15" rot="MR0" align="bottom-center">2.8v</text>
 <text x="9.906" y="2.794" size="0.8128" layer="22" font="vector" ratio="15" rot="MR0" align="bottom-center">SDA</text>
 <text x="7.366" y="2.794" size="0.8128" layer="22" font="vector" ratio="15" rot="MR0" align="bottom-center">SCL</text>
 <text x="4.826" y="2.794" size="0.8128" layer="22" font="vector" ratio="15" rot="MR0" align="bottom-center">IO0</text>
