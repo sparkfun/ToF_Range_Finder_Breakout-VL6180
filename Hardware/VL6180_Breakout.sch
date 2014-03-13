@@ -15994,8 +15994,8 @@ Various fiducial points for machine vision alignment.</description>
 <device name="" package="VL6180">
 <connects>
 <connect gate="G$1" pin="AVDD" pad="10"/>
-<connect gate="G$1" pin="AVDD_VCSEL" pad="9"/>
-<connect gate="G$1" pin="AVSS_VCSEL" pad="8"/>
+<connect gate="G$1" pin="AVDD_VCSEL" pad="8"/>
+<connect gate="G$1" pin="AVSS_VCSEL" pad="9"/>
 <connect gate="G$1" pin="GND" pad="12"/>
 <connect gate="G$1" pin="GPIO0" pad="4"/>
 <connect gate="G$1" pin="GPIO1" pad="1"/>
