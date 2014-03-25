@@ -132,7 +132,7 @@
 <wire x1="33.00025625" y1="2.750590625" x2="29.00025625" y2="2.750590625" width="0.254" layer="20"/>
 <wire x1="-3.99974375" y1="2.750590625" x2="-3.99974375" y2="10.250590625" width="0.254" layer="20" curve="-180"/>
 <wire x1="33.00025625" y1="10.250590625" x2="33.00025625" y2="2.750590625" width="0.254" layer="20" curve="-180"/>
-<text x="28.932" y="6.454" size="1.016" layer="16" font="vector" ratio="20" rot="MR270" align="bottom-center">v01</text>
+<text x="28.932" y="6.454" size="1.016" layer="16" font="vector" ratio="20" rot="MR270" align="bottom-center">v02</text>
 <text x="20.828" y="2.667" size="0.8128" layer="21" font="vector" ratio="15" align="bottom-center">GND</text>
 <text x="18.288" y="2.667" size="0.8128" layer="21" font="vector" ratio="15" align="bottom-center">VCC</text>
 <text x="15.748" y="2.667" size="0.8128" layer="21" font="vector" ratio="15" align="bottom-center">SDA</text>
@@ -159,8 +159,8 @@ We've spent an enormous amount of time creating and checking these footprints an
 &lt;b&gt;Licensing:&lt;/b&gt; CC v3.0 Share-Alike You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
 <packages>
 <package name="CREATIVE_COMMONS">
-<text x="-20.32" y="5.08" size="1.778" layer="51">Released under the Creative Commons Attribution Share-Alike 3.0 License</text>
-<text x="0" y="2.54" size="1.778" layer="51">http://creativecommons.org/licenses/by-sa/3.0</text>
+<text x="-20.32" y="5.08" size="1.778" layer="51">Released under the Creative Commons Attribution Share-Alike 4.0 License</text>
+<text x="0" y="2.54" size="1.778" layer="51"> https://creativecommons.org/licenses/by-sa/4.0/</text>
 <text x="11.43" y="0" size="1.778" layer="51">Designed by:</text>
 </package>
 <package name="OSHW-LOGO-S">
@@ -1412,6 +1412,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <wire x1="-2.4" y1="-1.4" x2="-2.4" y2="1.4" width="0.2032" layer="21"/>
 <text x="-2.54" y="1.778" size="0.8128" layer="25" font="vector" ratio="15">&gt;NAME</text>
 <text x="-2.54" y="-2.54" size="0.8128" layer="27" font="vector" ratio="15">&gt;VALUE</text>
+<circle x="-1.905" y="-0.381" radius="0.127" width="0.2032" layer="21"/>
 </package>
 </packages>
 </library>

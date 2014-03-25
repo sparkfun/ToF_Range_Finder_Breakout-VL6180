@@ -15965,6 +15965,7 @@ Various fiducial points for machine vision alignment.</description>
 <wire x1="-2.4" y1="-1.4" x2="-2.4" y2="1.4" width="0.2032" layer="21"/>
 <text x="-2.54" y="1.778" size="0.8128" layer="25" font="vector" ratio="15">&gt;NAME</text>
 <text x="-2.54" y="-2.54" size="0.8128" layer="27" font="vector" ratio="15">&gt;VALUE</text>
+<circle x="-1.905" y="-0.381" radius="0.127" width="0.2032" layer="21"/>
 </package>
 </packages>
 <symbols>
@@ -17547,7 +17548,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <sheet>
 <plain>
 <text x="166.37" y="11.43" size="2.54" layer="94">Casey Kuhns</text>
-<text x="238.76" y="6.35" size="2.54" layer="94">v01</text>
+<text x="238.76" y="6.35" size="2.54" layer="94">v03</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>

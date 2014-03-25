@@ -127,8 +127,8 @@ We've spent an enormous amount of time creating and checking these footprints an
 &lt;b&gt;Licensing:&lt;/b&gt; CC v3.0 Share-Alike You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
 <packages>
 <package name="CREATIVE_COMMONS">
-<text x="-20.32" y="5.08" size="1.778" layer="51">Released under the Creative Commons Attribution Share-Alike 3.0 License</text>
-<text x="0" y="2.54" size="1.778" layer="51">http://creativecommons.org/licenses/by-sa/3.0</text>
+<text x="-20.32" y="5.08" size="1.778" layer="51">Released under the Creative Commons Attribution Share-Alike 4.0 License</text>
+<text x="0" y="2.54" size="1.778" layer="51"> https://creativecommons.org/licenses/by-sa/4.0/</text>
 <text x="11.43" y="0" size="1.778" layer="51">Designed by:</text>
 </package>
 <package name="SFE_LOGO_NAME_FLAME_.1">
@@ -11154,8 +11154,8 @@ We've spent an enormous amount of time creating and checking these footprints an
 <text x="1.524" y="17.78" size="2.54" layer="94" font="vector">TITLE:</text>
 <text x="15.494" y="17.78" size="2.7432" layer="94" font="vector">&gt;DRAWING_NAME</text>
 <text x="2.54" y="31.75" size="1.9304" layer="94">Released under the Creative Commons</text>
-<text x="2.54" y="27.94" size="1.9304" layer="94">Attribution Share-Alike 3.0 License</text>
-<text x="2.54" y="24.13" size="1.9304" layer="94">http://creativecommons.org/licenses/by-sa/3.0</text>
+<text x="2.54" y="27.94" size="1.9304" layer="94">Attribution Share-Alike 4.0 License</text>
+<text x="2.54" y="24.13" size="1.9304" layer="94"> https://creativecommons.org/licenses/by-sa/4.0/</text>
 <text x="1.27" y="11.43" size="2.54" layer="94">Design by:</text>
 </symbol>
 <symbol name="DGND">
@@ -15984,6 +15984,7 @@ Various fiducial points for machine vision alignment.</description>
 <wire x1="-2.4" y1="-1.4" x2="-2.4" y2="1.4" width="0.2032" layer="21"/>
 <text x="-2.54" y="1.778" size="0.8128" layer="25" font="vector" ratio="15">&gt;NAME</text>
 <text x="-2.54" y="-2.54" size="0.8128" layer="27" font="vector" ratio="15">&gt;VALUE</text>
+<circle x="-1.905" y="-0.381" radius="0.127" width="0.2032" layer="21"/>
 </package>
 </packages>
 <symbols>
@@ -17759,7 +17760,7 @@ Standard 3.3V and 5V 500mA LDO voltage regulator in SOT-23 layout. Micrel part M
 <sheet>
 <plain>
 <text x="166.37" y="11.43" size="2.54" layer="94">Casey Kuhns</text>
-<text x="238.76" y="6.35" size="2.54" layer="94">v01</text>
+<text x="238.76" y="6.35" size="2.54" layer="94">v02</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
