@@ -15947,18 +15947,18 @@ Various fiducial points for machine vision alignment.</description>
 <library name="VL6180">
 <packages>
 <package name="VL6180">
-<smd name="1" x="-1.875" y="-1" dx="0.55" dy="0.6" layer="1"/>
-<smd name="2" x="-1.125" y="-1" dx="0.55" dy="0.6" layer="1"/>
-<smd name="3" x="-0.375" y="-1" dx="0.55" dy="0.6" layer="1"/>
-<smd name="4" x="0.375" y="-1" dx="0.55" dy="0.6" layer="1"/>
-<smd name="5" x="1.125" y="-1" dx="0.55" dy="0.6" layer="1"/>
-<smd name="6" x="1.875" y="-1" dx="0.55" dy="0.6" layer="1"/>
-<smd name="7" x="1.875" y="1" dx="0.55" dy="0.6" layer="1"/>
-<smd name="8" x="1.125" y="1" dx="0.55" dy="0.6" layer="1"/>
-<smd name="9" x="0.375" y="1" dx="0.55" dy="0.6" layer="1"/>
-<smd name="10" x="-0.375" y="1" dx="0.55" dy="0.6" layer="1"/>
-<smd name="11" x="-1.125" y="1" dx="0.55" dy="0.6" layer="1"/>
-<smd name="12" x="-1.875" y="1" dx="0.55" dy="0.6" layer="1"/>
+<smd name="1" x="-1.875" y="-1" dx="0.55" dy="0.6" layer="1" cream="no"/>
+<smd name="2" x="-1.125" y="-1" dx="0.55" dy="0.6" layer="1" cream="no"/>
+<smd name="3" x="-0.375" y="-1" dx="0.55" dy="0.6" layer="1" cream="no"/>
+<smd name="4" x="0.375" y="-1" dx="0.55" dy="0.6" layer="1" cream="no"/>
+<smd name="5" x="1.125" y="-1" dx="0.55" dy="0.6" layer="1" cream="no"/>
+<smd name="6" x="1.875" y="-1" dx="0.55" dy="0.6" layer="1" cream="no"/>
+<smd name="7" x="1.875" y="1" dx="0.55" dy="0.6" layer="1" cream="no"/>
+<smd name="8" x="1.125" y="1" dx="0.55" dy="0.6" layer="1" cream="no"/>
+<smd name="9" x="0.375" y="1" dx="0.55" dy="0.6" layer="1" cream="no"/>
+<smd name="10" x="-0.375" y="1" dx="0.55" dy="0.6" layer="1" cream="no"/>
+<smd name="11" x="-1.125" y="1" dx="0.55" dy="0.6" layer="1" cream="no"/>
+<smd name="12" x="-1.875" y="1" dx="0.55" dy="0.6" layer="1" cream="no"/>
 <wire x1="-2.4" y1="1.4" x2="2.4" y2="1.4" width="0.2032" layer="21"/>
 <wire x1="2.4" y1="1.4" x2="2.4" y2="-1.4" width="0.2032" layer="21"/>
 <wire x1="2.4" y1="-1.4" x2="-2.4" y2="-1.4" width="0.2032" layer="21"/>
@@ -15966,6 +15966,78 @@ Various fiducial points for machine vision alignment.</description>
 <text x="-2.54" y="1.778" size="0.8128" layer="25" font="vector" ratio="15">&gt;NAME</text>
 <text x="-2.54" y="-2.54" size="0.8128" layer="27" font="vector" ratio="15">&gt;VALUE</text>
 <circle x="-1.905" y="-0.381" radius="0.127" width="0.2032" layer="21"/>
+<polygon width="0.127" layer="31">
+<vertex x="-1.875" y="-0.825" curve="-90"/>
+<vertex x="-1.725" y="-0.975" curve="-90"/>
+<vertex x="-1.875" y="-1.125" curve="-90"/>
+<vertex x="-2.025" y="-0.975" curve="-90"/>
+</polygon>
+<polygon width="0.127" layer="31">
+<vertex x="-1.125" y="-0.825" curve="-90"/>
+<vertex x="-0.975" y="-0.975" curve="-90"/>
+<vertex x="-1.125" y="-1.125" curve="-90"/>
+<vertex x="-1.275" y="-0.975" curve="-90"/>
+</polygon>
+<polygon width="0.127" layer="31">
+<vertex x="-0.375" y="-0.825" curve="-90"/>
+<vertex x="-0.225" y="-0.975" curve="-90"/>
+<vertex x="-0.375" y="-1.125" curve="-90"/>
+<vertex x="-0.525" y="-0.975" curve="-90"/>
+</polygon>
+<polygon width="0.127" layer="31">
+<vertex x="0.375" y="-0.825" curve="-90"/>
+<vertex x="0.525" y="-0.975" curve="-90"/>
+<vertex x="0.375" y="-1.125" curve="-90"/>
+<vertex x="0.225" y="-0.975" curve="-90"/>
+</polygon>
+<polygon width="0.127" layer="31">
+<vertex x="1.125" y="-0.825" curve="-90"/>
+<vertex x="1.275" y="-0.975" curve="-90"/>
+<vertex x="1.125" y="-1.125" curve="-90"/>
+<vertex x="0.975" y="-0.975" curve="-90"/>
+</polygon>
+<polygon width="0.127" layer="31">
+<vertex x="1.875" y="-0.825" curve="-90"/>
+<vertex x="2.025" y="-0.975" curve="-90"/>
+<vertex x="1.875" y="-1.125" curve="-90"/>
+<vertex x="1.725" y="-0.975" curve="-90"/>
+</polygon>
+<polygon width="0.127" layer="31">
+<vertex x="1.875" y="1.125" curve="-90"/>
+<vertex x="2.025" y="0.975" curve="-90"/>
+<vertex x="1.875" y="0.825" curve="-90"/>
+<vertex x="1.725" y="0.975" curve="-90"/>
+</polygon>
+<polygon width="0.127" layer="31">
+<vertex x="1.125" y="1.125" curve="-90"/>
+<vertex x="1.275" y="0.975" curve="-90"/>
+<vertex x="1.125" y="0.825" curve="-90"/>
+<vertex x="0.975" y="0.975" curve="-90"/>
+</polygon>
+<polygon width="0.127" layer="31">
+<vertex x="0.375" y="1.125" curve="-90"/>
+<vertex x="0.525" y="0.975" curve="-90"/>
+<vertex x="0.375" y="0.825" curve="-90"/>
+<vertex x="0.225" y="0.975" curve="-90"/>
+</polygon>
+<polygon width="0.127" layer="31">
+<vertex x="-0.375" y="1.125" curve="-90"/>
+<vertex x="-0.225" y="0.975" curve="-90"/>
+<vertex x="-0.375" y="0.825" curve="-90"/>
+<vertex x="-0.525" y="0.975" curve="-90"/>
+</polygon>
+<polygon width="0.127" layer="31">
+<vertex x="-1.125" y="1.125" curve="-90"/>
+<vertex x="-0.975" y="0.975" curve="-90"/>
+<vertex x="-1.125" y="0.825" curve="-90"/>
+<vertex x="-1.275" y="0.975" curve="-90"/>
+</polygon>
+<polygon width="0.127" layer="31">
+<vertex x="-1.875" y="1.125" curve="-90"/>
+<vertex x="-1.725" y="0.975" curve="-90"/>
+<vertex x="-1.875" y="0.825" curve="-90"/>
+<vertex x="-2.025" y="0.975" curve="-90"/>
+</polygon>
 </package>
 </packages>
 <symbols>
@@ -16004,7 +16076,9 @@ Various fiducial points for machine vision alignment.</description>
 <connect gate="G$1" pin="SDA" pad="6"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="PROD_ID" value="IC-12007" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -17548,7 +17622,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <sheet>
 <plain>
 <text x="166.37" y="11.43" size="2.54" layer="94">Casey Kuhns</text>
-<text x="238.76" y="6.35" size="2.54" layer="94">v03</text>
+<text x="238.76" y="6.35" size="2.54" layer="94">v04</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
