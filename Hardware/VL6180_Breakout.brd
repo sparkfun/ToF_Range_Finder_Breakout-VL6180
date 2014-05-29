@@ -147,12 +147,12 @@
 <text x="7.62" y="2.794" size="0.8128" layer="21" font="vector" ratio="15" align="bottom-center">SCL</text>
 <text x="5.08" y="2.794" size="0.8128" layer="21" font="vector" ratio="15" align="bottom-center">IO0</text>
 <text x="2.54" y="2.794" size="0.8128" layer="21" font="vector" ratio="15" align="bottom-center">IO1</text>
-<text x="15.24" y="3.556" size="0.8128" layer="22" font="vector" ratio="15" rot="MR180" align="bottom-center">GND</text>
-<text x="12.7" y="3.556" size="0.8128" layer="22" font="vector" ratio="15" rot="MR180" align="bottom-center">2.8v</text>
-<text x="10.16" y="3.556" size="0.8128" layer="22" font="vector" ratio="15" rot="MR180" align="bottom-center">SDA</text>
-<text x="7.62" y="3.556" size="0.8128" layer="22" font="vector" ratio="15" rot="MR180" align="bottom-center">SCL</text>
-<text x="5.08" y="3.556" size="0.8128" layer="22" font="vector" ratio="15" rot="MR180" align="bottom-center">IO0</text>
-<text x="2.54" y="3.556" size="0.8128" layer="22" font="vector" ratio="15" rot="MR180" align="bottom-center">IO1</text>
+<text x="15.24" y="3.556" size="0.8128" layer="22" font="vector" ratio="15" rot="SMR180" align="bottom-center">GND</text>
+<text x="12.7" y="3.556" size="0.8128" layer="22" font="vector" ratio="15" rot="SMR180" align="bottom-center">2.8v</text>
+<text x="10.16" y="3.556" size="0.8128" layer="22" font="vector" ratio="15" rot="SMR180" align="bottom-center">SDA</text>
+<text x="7.62" y="3.556" size="0.8128" layer="22" font="vector" ratio="15" rot="SMR180" align="bottom-center">SCL</text>
+<text x="5.08" y="3.556" size="0.8128" layer="22" font="vector" ratio="15" rot="SMR180" align="bottom-center">IO0</text>
+<text x="2.54" y="3.556" size="0.8128" layer="22" font="vector" ratio="15" rot="SMR180" align="bottom-center">IO1</text>
 <text x="16.256" y="5.588" size="0.8128" layer="21" font="vector" ratio="15" rot="R270" align="bottom-center">PU EN</text>
 <text x="8.89" y="5.08" size="0.8128" layer="22" font="vector" ratio="15" rot="SMR180" align="bottom-center">VL6180 TOF </text>
 <text x="8.89" y="6.35" size="0.8128" layer="22" font="vector" ratio="15" rot="SMR180" align="bottom-center">Range Finder</text>
