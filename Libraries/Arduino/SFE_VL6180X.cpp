@@ -25,3 +25,38 @@ local pub, and you've found our code helpful, please buy us a round!
 
 Distributed as-is; no warranty is given.
 ******************************************************************************/
+
+#include <Wire.h>
+
+#define CONT 8
+
+#define VL6180X_ADDRESS 0x29
+
+void setup() {
+  // put your setup code here, to run once:
+  pinMode(CONT, OUTPUT);
+  digitalWrite(CONT, HIGH);
+
+  Serial.begin(9600);
+  
+  Wire.begin();
+  
+  delay(100);
+  
+  Wire.beginTransmission(VL6180X_ADDRESS);
+  Wire.write(0x00);
+  Wire.write(0x06);
+//  Wire.write(data);                     // Put data in Tx buffer
+  Wire.endTransmission();               // Send the Tx buffer
+  
+  Wire.requestFrom(VL6180X_ADDRESS, 1);
+    byte data = Wire.read();
+    Serial.println(data, HEX);
+
+}
+
+void loop() {
+  // put your main code here, to run repeatedly: 
+  
+}
+
