@@ -42,37 +42,35 @@ void VL6180x::reset(void)
 	//TODO: RESET!
 }
 
-
-
-#define CONT 8
-
-#define VL6180X_ADDRESS 0x29
-
-void setup() {
-  // put your setup code here, to run once:
-  pinMode(CONT, OUTPUT);
-  digitalWrite(CONT, HIGH);
-
-  Serial.begin(9600);
-  
-  Wire.begin();
-  
-  delay(100);
-  
-  Wire.beginTransmission(VL6180X_ADDRESS);
-  Wire.write(0x00);
-  Wire.write(0x06);
-//  Wire.write(data);                     // Put data in Tx buffer
-  Wire.endTransmission();               // Send the Tx buffer
-  
-  Wire.requestFrom(VL6180X_ADDRESS, 1);
-    byte data = Wire.read();
-    Serial.println(data, HEX);
+void VL6180x::readIdentification(void)
+//
+{
 
 }
 
-void loop() {
-  // put your main code here, to run repeatedly: 
-  
+void VL6180x::readSystem(void)
+//
+{
+
+}
+uint8_t VL6180x::VL6180x_getRegister(uint16_t registerAddr)
+//
+{
+	uint8_t data;
+	Wire.beginTransmission( _i2caddress ); // Address set on class instantiation
+	Wire.write((registerAddr >> 8) & 0xFF); //MSB of register address
+	Wire.write(registerAddr & 0xFF); //LSB of register address
+	Wire.endTransmission(); //Send address and register address bytes
+	data = Wire.read(); //Read Data from selected register
+	return data;
+}
+void VL6180x::VL6180x_setRegister(uint16_t registerAddr, uint8_t data)
+//
+{
+	Wire.beginTransmission( _i2caddress ); // Address set on class instantiation
+	Wire.write((registerAddr >> 8) & 0xFF); //MSB of register address
+	Wire.write(registerAddr & 0xFF); //LSB of register address
+	Wire.write(data); // Data/setting to be sent to device
+	Wire.endTransmission(); //Send address and register address bytes
 }
 

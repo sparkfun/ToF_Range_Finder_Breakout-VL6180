@@ -99,13 +99,12 @@ Distributed as-is; no warranty is given.
 
 
 
-
 class VL6180x
 {
 	public:	
 		VL6180x::VL6180x(VL6180x_addr address);
 		void VL6180x::reset(void);	//Reset device
-		void VL6180x::readIdentification(void);void 
+		void VL6180x::readIdentification(void);
 		void VL6180x::readSystem(void);
 		
 		
