@@ -31,9 +31,6 @@ Distributed as-is; no warranty is given.
 
 #include <Arduino.h>
 
-
-
-
 #define VL6180X_IDENTIFICATION_MODEL_ID              0x0000
 #define VL6180X_IDENTIFICATION_MODEL_REV_MAJOR       0x0001
 #define VL6180X_IDENTIFICATION_MODEL_REV_MINOR       0x0002
@@ -95,26 +92,23 @@ Distributed as-is; no warranty is given.
 #define VL6180X_I2C_SLAVE_DEVICE_ADDRESS             0x0212
 #define VL6180X_INTERLEAVED_MODE_ENABLE              0x02A3
 
-
-
-
-
 class VL6180x
 {
 	public:	
 		VL6180x::VL6180x(VL6180x_addr address);
-		void VL6180x::reset(void);	//Reset device
-		void VL6180x::readIdentification(void);
-		void VL6180x::readSystem(void);
-		
-		
+		//Reset device, toggles GPIO
+		void VL6180x::reset(void);
+		void VL6180x::getIdentification(VL6180xIdentification &identification);
+		void VL6180x::getSystemStatus(VL6180xSystemStatus &systemStatus);
+		uint8_t VL6180x::getDistance();
+		uint8_t VL6180x::getAmbientLight();
+
 	private:
 		VL6180x_addr _i2caddress
-		
+
 		uint8_t VL6180x_getRegister(uint16_t registerAddr);
 		void VL6180x_setRegister(uint16_t registerAddr, uint8_t data);
-		
-	
+
 };
 
 #endif

@@ -42,17 +42,34 @@ void VL6180x::reset(void)
 	//TODO: RESET!
 }
 
-void VL6180x::readIdentification(void)
+void VL6180x::getIdentification(VL6180xIdentification &identification)
 //
 {
 
 }
 
-void VL6180x::readSystem(void)
+void VL6180x::getSystemStatus(VL6180xSystemStatus &systemStatus)
 //
 {
 
 }
+
+
+
+uint8_t VL6180x::getDistance()
+//
+{
+
+	return distance;
+}
+uint8_t VL6180x::getAmbientLight()
+//
+{
+	
+	return ambientLight;
+}
+
+
 uint8_t VL6180x::VL6180x_getRegister(uint16_t registerAddr)
 //
 {
